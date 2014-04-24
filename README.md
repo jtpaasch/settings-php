@@ -80,7 +80,7 @@ To load a file, use the `Settings::load()` method. You can pass any number of fi
 
     $settings->load('settings.local', 'settings.default', 'file3.txt');
 
-It will try to load the first one, and if that fails, it will then try the second one, and if that fails, it will then try the third. When it successfully loads a file, it will stop and just parse that one..
+It will try to load the first one, and if that fails, it will then try the second one, and if that fails, it will then try the third. When it successfully loads a file, it will stop and just parse that one.
 
 If none of the files can be loaded, it will throw a `RuntimeException`. 
 
