@@ -1,5 +1,5 @@
 {
-    "name": "jpaasch/Settings.php",
+    "name": "jpaasch/settings-php",
     "autoload": {
         "prs-0": {
             "Settings": "src"
