@@ -1,4 +1,10 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jpaasch/settings-php.git"
+        }
+    ],
     "name": "jpaasch/settings-php",
     "autoload": {
         "prs-0": {
